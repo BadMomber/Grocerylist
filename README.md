@@ -1,4 +1,4 @@
-# FWE-WS18-19-749664-ha2 - Grocery list API
+# Grocerylist - with automatic best price detection via Google Shopping nad price API
 
 ![Grocerylist-App](./grocerylist.png "Homepage of Grocerylist")
 
