@@ -1,0 +1,15 @@
+.product-name {
+  transition: 0.5s;
+  color: #963BEC;
+  text-shadow: 0 0 10px #963BEC; }
+
+.product-price {
+  color: #F63E84;
+  text-shadow: 0 0 10px #F63E84; }
+
+.product-price-summed {
+  font-size: 3rem;
+  color: #3EF64A;
+  text-shadow: 0 0 10px #3EF64A; }
+
+/*# sourceMappingURL=product-detail.component.css.map */

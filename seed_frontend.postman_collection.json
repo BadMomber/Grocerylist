@@ -1,0 +1,691 @@
+{
+	"info": {
+		"_postman_id": "eeeb6974-083d-4c26-9a5d-2a80d9422338",
+		"name": "seed frontend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4015100198980\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 1,\n    \"unit\": \"Packung\",\n    \"category\": \"Housekeeping\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4015100198980\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 1,\n    \"unit\": \"Packung\",\n    \"category\": \"Housekeeping\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4015100198980\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 1,\n    \"unit\": \"Packung\",\n    \"category\": \"Housekeeping\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4015100198980\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 4,\n    \"unit\": \"Packung\",\n    \"category\": \"Housekeeping\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4015100198980\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 3,\n    \"unit\": \"Packung\",\n    \"category\": \"Housekeeping\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4000401010284\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 6,\n    \"unit\": \"Packung\",\n    \"category\": \"Other\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4000401010284\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 2,\n    \"unit\": \"Schachteln\",\n    \"category\": \"Other\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4000401010284\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 8,\n    \"unit\": \"Dosen\",\n    \"category\": \"Other\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4000401010284\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 9,\n    \"unit\": \"Dosen\",\n    \"category\": \"Other\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4000401010284\",\n    \"name\": \"Kaiser Natron 100g Tabletten\",\n    \"description\": \"Pulver ist auch okay\",\n    \"amount\": 1,\n    \"unit\": \"Stück\",\n    \"category\": \"Other\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"0018787252055\",\n    \"name\": \"Dr. Bronners Baby-Mild Bio Magic Balsam\",\n    \"description\": \"Den hellblauen\",\n    \"amount\": 1,\n    \"unit\": \"Packung\",\n    \"category\": \"Cosmetics\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"5099206073029\",\n    \"name\": \"MX Master 2S\",\n    \"description\": \"Bei Amazon bestellen\",\n    \"amount\": 1,\n    \"unit\": \"Stück\",\n    \"category\": \"Other\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"5707644480728\",\n    \"name\": \"Meraki Hand Cream\",\n    \"description\": \"Gibts nur im Heimatstore\",\n    \"amount\": 2,\n    \"unit\": \"Stück\",\n    \"category\": \"Cosmetics\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4015100198980\",\n    \"name\": \"got2b\",\n    \"description\": \"Das in der Metalldose\",\n    \"amount\": 2,\n    \"unit\": \"Stück\",\n    \"category\": \"Cosmetics\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"5000174003451\",\n    \"name\": \"Old Spice\",\n    \"description\": \"Das rote\",\n    \"amount\": 6,\n    \"unit\": \"Stück\",\n    \"category\": \"Cosmetics\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"3495080735275\",\n    \"name\": \"Musk\",\n    \"description\": \"Online bestellen?\",\n    \"amount\": 3,\n    \"unit\": \"Stück\",\n    \"category\": \"Cosmetics\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4009900508568\",\n    \"name\": \"Extra professional polar ice\",\n    \"description\": \"Die große Dose\",\n    \"amount\": 1,\n    \"unit\": \"Stück\",\n    \"category\": \"Groceries\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4009900508568\",\n    \"name\": \"Extra professional polar ice\",\n    \"description\": \"Die große Dose\",\n    \"amount\": 1,\n    \"unit\": \"Stück\",\n    \"category\": \"Groceries\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4009900508568\",\n    \"name\": \"Extra professional polar ice\",\n    \"description\": \"Die große Dose\",\n    \"amount\": 1,\n    \"unit\": \"Stück\",\n    \"category\": \"Groceries\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4009900508568\",\n    \"name\": \"Extra professional polar ice\",\n    \"description\": \"Die große Dose\",\n    \"amount\": 1,\n    \"unit\": \"Stück\",\n    \"category\": \"Groceries\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4009900508568\",\n    \"name\": \"Extra professional polar ice\",\n    \"description\": \"Die große Dose\",\n    \"amount\": 1,\n    \"unit\": \"Stück\",\n    \"category\": \"Groceries\"\n  }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/api/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"gtin\": \"4009800001602\",\n    \"name\": \"Speick Deo Stick Deodorant Natural\",\n    \"description\": \"Am besten bei DM holen\",\n    \"amount\": 1,\n    \"unit\": \"Stück\",\n    \"category\": \"Cosmetics\"\n }"
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,124 @@
+<div *ngIf="mode === 'view'">
+
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+        <h2 class="product-name">{{ product.name }}</h2>
+        <h3 class="amount">{{ product.amount }} {{ product.unit }}</h3>
+        <h4>{{ product.description}}</h4><br>
+        <br>
+        <h5 class="product-price">{{ product.price }} €</h5><br>
+        <h5 *ngIf="product.priceSummed != null"
+            class="product-price-summed">{{ product.priceSummed }} €</h5>
+
+      </div>
+
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+
+        <button class="btn btn-primary btn-edit"
+                (click)="onEditClicked()">Edit
+        </button>
+        <button class="btn btn-secondary btn-back"
+                (click)="onBackClicked()">Back
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div *ngIf="mode === 'edit'">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+        <form>
+
+          <label for="name">Name</label><input
+          class="form-control form-control-lg" id="name" name="name" type="text"
+          placeholder="name"
+          [(ngModel)]="product.name">
+
+          <label for="description">Description</label><input
+          class="form-control form-control-lg" id="description"
+          name="description" type="text"
+          placeholder="description"
+          [(ngModel)]="product.description">
+
+          <label for="amount">Amount</label><input
+          class="form-control form-control-lg" id="amount"
+          name="amount" type="text"
+          placeholder="Amount"
+          [(ngModel)]="product.amount">
+
+          <label for="unit">Unit</label><input
+          class="form-control form-control-lg" id="unit"
+          name="unit" type="text"
+          placeholder="Unit"
+          [(ngModel)]="product.unit">
+
+          <div class="row">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="housekeeping"
+                     id="housekeeping" name="housekeeping" value="Housekeeping"
+                     [(ngModel)]="product.category">
+              <label class="form-check-label"
+                     for="housekeeping">Housekeeping</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="groceries"
+                     id="groceries" name="groceries" value="Groceries"
+                     [(ngModel)]="product.category">
+              <label class="form-check-label" for="groceries">Groceries</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="cosmetics"
+                     id="cosmetics" name="cosmetics" value="Cosmetics"
+                     [(ngModel)]="product.category">
+              <label class="form-check-label" for="cosmetics">Cosmetics</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="other"
+                     id="other" name="other" value="Other"
+                     [(ngModel)]="product.category">
+              <label class="form-check-label" for="Other">Other</label>
+            </div>
+          </div>
+
+          <label for="gtin">GTIN</label><input
+          class="form-control form-control-lg" id="gtin" name="gtin"
+          type="text"
+          placeholder="GTIN"
+          [(ngModel)]="product.gtin">
+
+          <label for="price">Price</label><input
+          class="form-control form-control-lg" id="price" name="price"
+          type="text" placeholder="price"
+          [(ngModel)]="product.price">
+
+        </form>
+        <button class="btn btn-success" (click)="onSaveClicked()">Save</button>
+        <button class="btn btn-hint" (click)="onBackClicked()">Cancel</button>
+        <button class="btn btn-warning" (click)="onDeleteClicked()">Delete
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
