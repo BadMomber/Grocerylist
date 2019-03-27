@@ -1,4 +1,4 @@
-# Grocerylist - with automatic best price detection via Google Shopping nad price API
+# Grocerylist - with automatic best price detection via Google Shopping and price API
 
 ![Grocerylist-App](./grocerylist.png "Homepage of Grocerylist")
 
